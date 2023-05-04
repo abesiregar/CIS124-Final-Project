@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact page!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="index.html" class="link">Abe Siregar</a> <!-- Clicking this brings it to the intro page-->
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="project.html">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="skills.html">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="contacts.html">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header
+
+    <main>
+      <!-- Contact -->
+      <div class="about center">
+        <h1>Thank you for visiting my <span class="about__name">portfolio!</span></h1>
+        <h2 class="about__role">Below are some ways I can be reached at!</h2>
+        <p class="about__desc">
+          Thank you for taking the time to view my portfolio. I know within the future, there will be more to add as my life grows and experiences spread around! Below is my resume as I have shown
+          in the main/intro page, an email button, and also social media links.
+          <!--within the footer in all pages, you can also click "Created By Abe Siregar" to view my GitHub.-->  
+        </p>
+      </div>
+      
+      <section class="section contact center" id="contact">
+        <a href="mailto:abrahamdsiregar@gmail.com">
+          <span class="btn btn--outline">Email me!</span>
+        </a>
+
+        <br>
+
+        <a href="FinalPortfolio_SiregarAbe\Resume - Abe Siregar.docx" download>
+          <span class="btn btn--outline">My Resume!</span>
+        </a>
+
+        <br>
+
+        <a href="https://github.com/abesiregar" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+
+        <a href="https://instagram.com/theabrahamds" aria-label="instagram" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://twitter.com/theabeds" aria-label="twitter" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-twitter"></i>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/abesiregar" class="link footer__link"> Created By Abe Siregar </a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
